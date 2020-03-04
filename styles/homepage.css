@@ -1,0 +1,150 @@
+body {
+  min-width: 320px;
+  font-family: "San Francisco Display", sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+  color: #ffffff;
+}
+
+.logo {
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+nav {
+  display: inline;
+  font-size: 0.4em;
+  text-align: right;
+  padding: 0px 53px 45px 0;
+  font-weight: lighter;
+}
+
+.hero {
+  height: 100vh;
+  min-height: 480px;
+  background-image: linear-gradient(135deg, #4b81ff 0%, #38dcf7 100%);
+  background-size: cover;
+  color: #ffffff;
+  font-size: 65px;
+  position: relative;
+  background: linear-gradient(45deg, #c32bff, #c32bff, #1c8bf7, #61e9fa);
+  background-size: 400% 400%;
+  padding-top: 0px;
+  padding-left: 85px;
+  line-height: 1.2;
+}
+
+.intro__link {
+  font-size: 0.5em;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+}
+
+.projectList {
+  height: 130vh;
+  min-height: 480px;
+  background-size: cover;
+  position: relative;
+  background: #ffffff;
+  background-size: 400% 400%;
+  padding-top: 20px;
+  padding-left: 100px;
+}
+
+.project {
+  display: flex;
+  margin-top: 120px;
+  padding-left: 30px;
+}
+
+.description {
+  width: 480px;
+}
+
+h1 {
+  color: #000000;
+  padding: 10px;
+  padding-top: 80px;
+  font-size: 2em;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 1.2em;
+  color: #000000;
+  padding: 10px;
+  font-weight: lighter;
+  line-height: 1.3;
+}
+
+h3 {
+  font-size: 28px;
+  color: #000000;
+  margin-top: 150px;
+  text-align: center;
+  padding-bottom: 65px;
+}
+
+h4 {
+  font-size: 40px;
+  padding: 18px;
+  padding-bottom: 5px;
+}
+
+.button {
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 25px;
+}
+
+.header {
+  max-width: 1190px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
+}
+
+.footer {
+  background-color: black;
+  text-align: center;
+  padding: 25px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+li {
+  display: inline;
+  padding: 18px;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.socials {
+  padding: 20px;
+  padding-bottom: 35px;
+}
+
+@media screen and (min-width: 820px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+    align-items: center;
+  }
+}
