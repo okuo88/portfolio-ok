@@ -53,6 +53,7 @@ nav {
   background-size: 400% 400%;
   position: relative;
   overflow: hidden;
+  height: 100vh;
 }
 
 .content {
@@ -61,7 +62,6 @@ nav {
   letter-spacing: -0.02em;
   line-height: 1.2;
   text-align: inherit;
-  margin-bottom: 100px;
 }
 
 .intro__link {
@@ -204,7 +204,6 @@ li {
     padding-left: 30px;
     line-height: 1;
     padding-right: 37px;
-    margin-bottom: 60px;
   }
 
   .projectList {
