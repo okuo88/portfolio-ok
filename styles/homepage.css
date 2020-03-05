@@ -213,7 +213,8 @@ li {
   }
 
   .intro__link {
-    bottom: 20px;
+    bottom: 30px;
+    font-size: 22px;
   }
 
   .projectList {
