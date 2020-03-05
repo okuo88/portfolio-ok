@@ -33,6 +33,7 @@ body {
   box-sizing: border-box;
   color: #ffffff;
 }
+
 a {
   text-decoration: none;
 }
@@ -276,7 +277,7 @@ h4 {
 .footer {
   background-color: black;
   text-align: center;
-  padding: 25px;
+  padding: 20px;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -374,15 +375,15 @@ li {
   }
 
   h3 {
-    font-size: 24px;
+    font-size: 22px;
     margin-top: 100px;
     text-align: center;
     padding-bottom: 30px;
   }
 
   h4 {
-    font-size: 28px;
-    padding: 18px;
+    font-size: 27px;
+    padding: 14px;
   }
 
   .footer {
