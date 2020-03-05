@@ -3,18 +3,24 @@ body {
 }
 
 .container {
-  width: 1440px;
   margin: 0 auto;
 }
 
-@media (max-width: 1500px) {
+@media (min-width: 768px) {
   .container {
-    width: 1200px;
+    max-width: 720px;
   }
 }
-@media (max-width: 1000px) {
+
+@media (min-width: 992px) {
   .container {
-    width: 100%;
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
   }
 }
 
@@ -52,7 +58,7 @@ nav {
 
 .content {
   font-size: 60px;
-  padding-top: 120px;
+  padding-top: 80px;
   letter-spacing: -0.02em;
   line-height: 1.2;
   text-align: inherit;
@@ -189,9 +195,10 @@ li {
   }
 
   .content {
-    font-size: 48px;
+    font-size: 56px;
     padding-top: 50px;
     padding-left: 30px;
+    line-height: 1.1;
   }
 
   .projectList {
@@ -261,5 +268,12 @@ li {
 
   .copyright {
     font-size: 0.9em;
+  }
+}
+
+/* tablet */
+@media screen and (max-width: 992px) {
+  .content {
+    font-size: 54px;
   }
 }
