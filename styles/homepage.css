@@ -93,15 +93,15 @@ nav {
 }
 
 .img-01 {
-  padding-left: 100px;
-  padding-right: 50px;
-  max-height: 350px;
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .img-02 {
-  padding-left: 100px;
-  padding-right: 50px;
-  max-height: 350px;
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .description {
@@ -235,18 +235,6 @@ li {
     padding-left: 20px;
   }
 
-  .img-01 {
-    width: 100%;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
-  .img-02 {
-    width: 100%;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
   h1 {
     padding-top: 80px;
     font-size: 1.8em;
@@ -309,18 +297,6 @@ li {
 
   h4 {
     font-size: 30px;
-  }
-
-  .img-01 {
-    max-height: 380px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
-  .img-02 {
-    max-height: 380px;
-    padding-left: 0px;
-    padding-right: 0px;
   }
 }
 
