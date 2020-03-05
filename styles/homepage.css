@@ -58,10 +58,8 @@ nav {
   background: #ffffff;
   background-size: 400% 400%;
   padding-top: 20px;
-  padding-left: 50px;
-  padding-right: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .project {
@@ -73,10 +71,12 @@ nav {
 
 .img-01 {
   padding-left: 50px;
+  padding-right: 50px;
 }
 
 .img-02 {
   padding-left: 50px;
+  padding-right: 50px;
 }
 
 .description {
@@ -202,12 +202,14 @@ li {
     width: 450px;
     height: 300px;
     padding-left: 0px;
+    padding-right: 0px;
   }
 
   .img-02 {
     width: 450px;
     height: 300px;
     padding-left: 0px;
+    padding-right: 0px;
   }
 
   h1 {
