@@ -54,6 +54,7 @@ nav {
   position: relative;
   overflow: hidden;
   height: 100vh;
+  min-height: 480px;
 }
 
 .content {
@@ -185,22 +186,18 @@ li {
   }
 
   nav {
-    font-size: 1.3em;
-    text-align: left;
-    font-weight: lighter;
-    padding-top: 120px;
-    padding-left: 20px;
+    display: none;
   }
 
   .hero {
     height: 120vh;
-    padding-left: 30px;
     padding-top: 20px;
+    height: 600px;
   }
 
   .content {
-    font-size: 46px;
-    padding-top: 50px;
+    font-size: 36px;
+    padding-top: 120px;
     padding-left: 30px;
     line-height: 1;
     padding-right: 37px;
@@ -224,13 +221,13 @@ li {
   }
 
   .img-01 {
-    max-height: 335px;
+    width: 100%;
     padding-left: 0px;
     padding-right: 0px;
   }
 
   .img-02 {
-    max-height: 335px;
+    width: 100%;
     padding-left: 0px;
     padding-right: 0px;
   }
