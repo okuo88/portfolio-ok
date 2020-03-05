@@ -275,7 +275,9 @@ li {
 @media screen and (max-width: 992px) {
   .content {
     font-size: 54px;
+    padding-top: 140px;
   }
+
   h1 {
     font-size: 2em;
   }
@@ -296,12 +298,12 @@ li {
   }
 
   .img-01 {
-    width: 550px;
+    width: 600px;
     height: 400px;
   }
 
   .img-02 {
-    width: 550px;
+    width: 600px;
     height: 400px;
   }
 }
