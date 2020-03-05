@@ -127,7 +127,7 @@ h3 {
 }
 
 h4 {
-  font-size: 38px;
+  font-size: 35px;
   padding: 18px;
   padding-bottom: 5px;
 }
@@ -157,7 +157,7 @@ h4 {
   background-color: black;
   text-align: center;
   padding: 25px;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
 }
 
@@ -171,6 +171,10 @@ li {
 .socials {
   padding: 20px;
   padding-bottom: 35px;
+}
+
+.copyright {
+  font-size: 0.8em;
 }
 
 /* mobile */
@@ -252,7 +256,7 @@ li {
   }
 
   h4 {
-    font-size: 30px;
+    font-size: 28px;
     padding: 18px;
   }
 
@@ -278,6 +282,10 @@ li {
     padding-top: 180px;
   }
 
+  nav {
+    font-size: 1.3em;
+  }
+
   h1 {
     font-size: 2.5em;
   }
@@ -294,7 +302,7 @@ li {
   }
 
   h4 {
-    font-size: 35px;
+    font-size: 30px;
   }
 
   .img-01 {
