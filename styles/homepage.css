@@ -61,6 +61,7 @@ nav {
   padding-left: 50px;
   padding-right: 50px;
   margin-left: 50px;
+  margin-right: 50px;
 }
 
 .project {
@@ -181,8 +182,10 @@ li {
   }
 
   .projectList {
-    padding-left: 10px;
     margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .project {
@@ -192,18 +195,19 @@ li {
 
   .description {
     padding-bottom: 50px;
+    padding-left: 30px;
   }
 
   .img-01 {
     width: 450px;
     height: 300px;
-    padding-left: 0;
+    padding-left: 0px;
   }
 
   .img-02 {
     width: 450px;
     height: 300px;
-    padding-left: 0;
+    padding-left: 0px;
   }
 
   h1 {
