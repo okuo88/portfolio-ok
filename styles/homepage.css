@@ -60,7 +60,6 @@ nav {
   padding-top: 20px;
   width: 1440px;
   margin: 0 auto;
-  padding-left: 85px;
 }
 
 .project {
@@ -81,6 +80,7 @@ nav {
 
 .description {
   width: 480px;
+  padding-left: 85px;
 }
 
 h1 {
