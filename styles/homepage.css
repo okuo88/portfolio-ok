@@ -40,12 +40,12 @@ body {
 }
 
 .logo_img {
-  width: 120px;
-  height: 67px;
+  width: 115px;
+  height: 62px;
 }
 
 nav {
-  font-size: 1.1em;
+  font-size: 1.2em;
   text-align: right;
   font-weight: lighter;
   padding-top: 50px;
@@ -190,8 +190,8 @@ li {
     position: absolute;
   }
   .logo_img {
-    width: 70px;
-    height: 42px;
+    width: 80px;
+    height: 48px;
   }
 
   nav {
