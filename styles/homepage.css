@@ -58,7 +58,7 @@ nav {
 
 .content {
   font-size: 60px;
-  padding-top: 100px;
+  padding-top: 80px;
   letter-spacing: -0.02em;
   line-height: 1.2;
   text-align: inherit;
@@ -174,7 +174,7 @@ li {
 }
 
 .copyright {
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 /* mobile */
@@ -276,22 +276,17 @@ li {
 }
 
 /* tablet */
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 992px) {
   .content {
     font-size: 54px;
-    padding-top: 180px;
-  }
-
-  nav {
-    font-size: 1.3em;
   }
 
   h1 {
-    font-size: 2.5em;
+    font-size: 2.2em;
   }
 
   h2 {
-    font-size: 1.6em;
+    font-size: 1.35em;
   }
 
   h3 {
