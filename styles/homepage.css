@@ -71,11 +71,13 @@ nav {
 .img-01 {
   padding-left: 50px;
   padding-right: 50px;
+  max-height: 350px;
 }
 
 .img-02 {
   padding-left: 50px;
   padding-right: 50px;
+  max-height: 350px;
 }
 
 .description {
