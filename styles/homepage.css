@@ -38,10 +38,11 @@ nav {
 
 .content {
   font-size: 60px;
-  padding-top: 100px;
+  padding-top: 120px;
   letter-spacing: -0.02em;
   line-height: 1.2;
   padding-left: 85px;
+  text-align: inherit;
 }
 
 .intro__link {
@@ -53,13 +54,13 @@ nav {
 
 .projectList {
   min-height: 480px;
-  background-size: cover;
   position: relative;
   background: #ffffff;
   background-size: 400% 400%;
   padding-top: 20px;
   padding-left: 50px;
   padding-right: 50px;
+  margin-left: 50px;
 }
 
 .project {
@@ -67,6 +68,14 @@ nav {
   padding-left: 30px;
   display: flex;
   flex-flow: row;
+}
+
+.img-01 {
+  padding-left: 50px;
+}
+
+.img-02 {
+  padding-left: 50px;
 }
 
 .description {
@@ -173,6 +182,7 @@ li {
 
   .projectList {
     padding-left: 10px;
+    margin-left: 0px;
   }
 
   .project {
@@ -187,11 +197,13 @@ li {
   .img-01 {
     width: 450px;
     height: 300px;
+    padding-left: 0;
   }
 
   .img-02 {
     width: 450px;
     height: 300px;
+    padding-left: 0;
   }
 
   h1 {
