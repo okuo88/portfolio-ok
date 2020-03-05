@@ -2,6 +2,22 @@ body {
   font-family: "San Francisco Display", sans-serif;
 }
 
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1500px) {
+  .container {
+    width: 1200px;
+  }
+}
+@media (max-width: 1000px) {
+  .container {
+    width: 100%;
+  }
+}
+
 *,
 *:before,
 *:after {
@@ -13,7 +29,6 @@ body {
 }
 
 .logo {
-  padding-left: 85px;
   padding-top: 30px;
   position: absolute;
 }
@@ -27,7 +42,6 @@ nav {
 }
 
 .hero {
-  height: 100vh;
   background-image: linear-gradient(135deg, #4b81ff 0%, #38dcf7 100%);
   background: linear-gradient(45deg, #c32bff, #c32bff, #1c8bf7, #61e9fa);
   background-size: 400% 400%;
@@ -41,7 +55,6 @@ nav {
   padding-top: 120px;
   letter-spacing: -0.02em;
   line-height: 1.2;
-  padding-left: 85px;
   text-align: inherit;
 }
 
@@ -58,7 +71,6 @@ nav {
   background: #ffffff;
   background-size: 400% 400%;
   padding-top: 20px;
-  width: 1440px;
   margin: 0 auto;
 }
 
@@ -69,20 +81,19 @@ nav {
 }
 
 .img-01 {
-  padding-left: 50px;
+  padding-left: 100px;
   padding-right: 50px;
   max-height: 350px;
 }
 
 .img-02 {
-  padding-left: 50px;
+  padding-left: 100px;
   padding-right: 50px;
   max-height: 350px;
 }
 
 .description {
-  width: 480px;
-  padding-left: 85px;
+  width: 500px;
 }
 
 h1 {
@@ -197,6 +208,7 @@ li {
 
   .description {
     padding-bottom: 50px;
+    width: 100%;
   }
 
   .img-01 {
