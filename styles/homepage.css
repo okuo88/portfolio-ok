@@ -199,7 +199,7 @@ li {
   }
 
   .content {
-    font-size: 56px;
+    font-size: 54px;
     padding-top: 50px;
     padding-left: 30px;
     line-height: 1.1;
@@ -223,15 +223,13 @@ li {
   }
 
   .img-01 {
-    width: 450px;
-    height: 300px;
+    max-height: 335px;
     padding-left: 0px;
     padding-right: 0px;
   }
 
   .img-02 {
-    width: 450px;
-    height: 300px;
+    max-height: 335px;
     padding-left: 0px;
     padding-right: 0px;
   }
@@ -278,7 +276,7 @@ li {
 /* tablet */
 @media screen and (min-width: 992px) {
   .content {
-    font-size: 54px;
+    font-size: 60px;
   }
 
   h1 {
@@ -301,12 +299,21 @@ li {
   }
 
   .img-01 {
-    width: 600px;
-    height: 400px;
+    max-height: 450px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .img-02 {
-    width: 600px;
-    height: 400px;
+    max-height: 450px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .content {
+    font-size: 65px;
+    padding-top: 100px;
   }
 }
