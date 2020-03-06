@@ -393,6 +393,7 @@ li {
 /* mobile */
 @media screen and (max-width: 768px) {
   .logo {
+    padding-top: 20px;
     padding-left: 30px;
     position: absolute;
   }
@@ -405,6 +406,10 @@ li {
     display: none;
   }
 
+  .burger-menu {
+    top: 9%;
+  }
+
   .hero {
     height: 120vh;
     padding-top: 20px;
@@ -413,7 +418,7 @@ li {
 
   .HELLO h5 {
     font-size: 12vw;
-    padding-top: 75px;
+    padding-top: 68px;
   }
 
   .content {
@@ -425,11 +430,11 @@ li {
 
   .content p {
     font-size: 35px;
-    padding-top: 6px;
+    padding-top: 8px;
   }
 
   .intro__link {
-    bottom: 30px;
+    bottom: 35px;
     font-size: 22px;
   }
 
