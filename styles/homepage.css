@@ -123,7 +123,7 @@ nav {
   text-align: right;
   font-weight: lighter;
   padding-top: 50px;
-  padding-right: 80px;
+  padding-right: 10px;
 }
 
 .hero {
@@ -176,12 +176,103 @@ nav {
   }
 }
 
-.content {
+.HELLO {
+  width: 100vw;
+  overflow: hidden;
+}
+
+.HELLO h5 {
+  font-size: 8vw;
+  float: left;
+  margin-left: 0vw;
+  margin-top: 6vw;
+}
+
+::selection {
+  background: transparent;
+}
+
+/* HAVE A DREAM ANIMATION */
+h5 {
+  cursor: default;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+}
+
+h5 span {
+  position: relative;
+  top: 0.5vh;
+  margin: 0;
+  animation: wave 1.7s infinite;
+  -webkit-animation: wave 1.7s infinite; /*linear  alternate for more bouncyness switch linear to ease*/
+}
+
+h5 span:nth-child(2) {
+  -webkit-animation-delay: 0.07s;
+}
+
+h5 span:nth-child(3) {
+  -webkit-animation-delay: 0.14s;
+}
+
+h5 span:nth-child(4) {
+  -webkit-animation-delay: 0.21s;
+}
+
+h5 span:nth-child(5) {
+  -webkit-animation-delay: 0.28s;
+}
+
+h5 span:nth-child(6) {
+  -webkit-animation-delay: 0.35s;
+}
+
+h5 span:nth-child(7) {
+  -webkit-animation-delay: 0.42s;
+}
+
+h5 span:nth-child(8) {
+  -webkit-animation-delay: 0.49s;
+}
+
+h5 span:nth-child(9) {
+  -webkit-animation-delay: 0.56s;
+}
+
+h5 span:nth-child(10) {
+  -webkit-animation-delay: 0.63s;
+}
+
+h5 span:nth-child(11) {
+  -webkit-animation-delay: 0.7s;
+}
+
+h5 span:nth-child(12) {
+  -webkit-animation-delay: 0.77s;
+}
+
+/* ANIMATION */
+@-webkit-keyframes wave {
+  0% {
+    top: 10px;
+  }
+  50% {
+    top: -10px;
+  }
+  100% {
+    top: 10px;
+  }
+}
+
+.content p {
   font-size: 60px;
-  padding-top: 80px;
   letter-spacing: -0.02em;
   line-height: 1.2;
   text-align: inherit;
+  padding-top: 20px;
 }
 
 .intro__link {
@@ -286,7 +377,7 @@ li {
   display: inline;
   padding: 18px;
   text-decoration: none;
-  font-size: 0.9em;
+  font-size: 0.8em;
 }
 
 .socials {
@@ -320,12 +411,21 @@ li {
     height: 660px;
   }
 
+  .HELLO h5 {
+    font-size: 12vw;
+    padding-top: 75px;
+  }
+
   .content {
     font-size: 36px;
-    padding-top: 120px;
     padding-left: 30px;
     line-height: 1.1;
     padding-right: 37px;
+  }
+
+  .content p {
+    font-size: 35px;
+    padding-top: 6px;
   }
 
   .intro__link {
@@ -431,6 +531,6 @@ li {
 @media screen and (min-width: 1200px) {
   .content {
     font-size: 65px;
-    padding-top: 100px;
+    padding-top: 20px;
   }
 }
