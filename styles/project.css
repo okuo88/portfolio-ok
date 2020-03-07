@@ -34,6 +34,10 @@ body {
   margin: 0 auto;
 }
 
+.content {
+  max-width: 974px;
+}
+
 a {
   text-decoration: none;
 }
@@ -180,6 +184,7 @@ li {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 150px;
 }
 
 .ipersona {
@@ -188,6 +193,16 @@ li {
   margin-left: auto;
   margin-right: auto;
   margin-top: 150px;
+  margin-bottom: 40px;
+}
+
+.iprototype {
+  width: 98px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  margin-bottom: 40px;
 }
 
 .iskin {
@@ -214,12 +229,13 @@ li {
   margin-top: 150px;
 }
 
-h1 {
+.container h1 {
   font-size: 50px;
   text-align: center;
   margin-top: 20px;
   letter-spacing: -0.03em;
   font-weight: 600;
+  margin-bottom: 25px;
 }
 
 h2 {
@@ -232,30 +248,35 @@ h3 {
   font-size: 30px;
   text-align: center;
   margin-top: 40px;
+  margin-bottom: 15px;
 }
 
 h4 {
   font-size: 22px;
   text-align: justify;
-  margin-top: 30px;
   line-height: 1.65;
   margin-bottom: 38px;
   letter-spacing: -0.031em;
   font-weight: 300;
+  margin-top: 5px;
 }
 
 .cubecloud {
   padding-top: 100px;
-  width: 100%;
+  max-width: 974px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .interaction {
-  padding-top: 70px;
+  padding-top: 20px;
   width: 100%;
 }
 
 .research {
-  padding-top: 45px;
+  padding-top: 10px;
+  padding-bottom: 50px;
   width: 100%;
 }
 
@@ -264,6 +285,8 @@ h4 {
   display: block;
   width: 800px;
   text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .competitive_01 {
@@ -280,32 +303,93 @@ h4 {
   max-width: 220px;
 }
 
+.personas {
+  width: 900px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+
 .flow {
   width: 100%;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.sketch {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 25px;
+  padding-bottom: 35px;
 }
 
 .logosketch {
-  width: 800px;
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+
+.styles {
+  width: 450px;
+  display: inline-block;
+  margin-left: 30px;
+  padding-top: 25px;
+  padding-bottom: 40px;
+}
+
+.wireframes {
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+
+.preference {
+  max-width: 750px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 25px;
+  padding-bottom: 70px;
+}
+.win {
+  width: 95%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-.styles {
-  margin: 0 auto;
-  display: inline-block;
-  width: 550px;
-  padding: 20px;
+.folding {
+  max-width: 800px;
+  display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 25px;
+  padding-bottom: 40px;
 }
 
-.wireframes {
-  width: 100%;
+.invision {
+  background-color: #098bff;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  min-width: 220px;
+  margin-left: 35%;
+  margin-top: 30px;
 }
 
 h5 {
-  font-size: 28px;
+  font-size: 26px;
   color: #000000;
   margin-top: 150px;
   text-align: center;
@@ -313,17 +397,46 @@ h5 {
 }
 
 h6 {
-  font-size: 35px;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 400;
+  padding-top: 15px;
+  letter-spacing: 0.02em;
+}
+
+h7 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.footer h1 {
+  font-size: 30px;
+  color: white;
   padding: 18px;
   padding-bottom: 5px;
-  color: white;
+}
+
+p {
+  font-size: 22px;
+  text-align: justify;
+  margin-top: 30px;
+  line-height: 2;
+  margin-bottom: 38px;
+  letter-spacing: -0.031em;
+  font-weight: 300;
+}
+
+.prototype {
+  color: blue;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer {
   background-color: black;
   text-align: center;
-  padding: 20px;
   font-size: 16px;
+  padding: 20px;
   line-height: 1.5;
 }
 
@@ -334,10 +447,29 @@ h6 {
 
 .footer p {
   color: white;
+  font-size: 16px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.footer ul *:before,
+.footer ul *:after {
+  color: white;
 }
 
 .copyright {
-  font-size: 1em;
-  padding-bottom: 20px;
   color: white;
+  font-size: 16px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-weight: 400;
 }
