@@ -19,34 +19,18 @@
   </head>
   <body>
     <div class="hero">
-      <header class="container">
+      <header class="container header">
         <div class="logo">
           <a href="index.html"
             ><img class="logo_img" src="images/logo.png" alt="logo"
           /></a>
         </div>
         <!-- Nav -->
-        <a href="#" class="burger-menu animated">
-          <span></span>
-          <span></span>
-          <span></span>
-        </a>
-        <nav class="nav header__nav">
-          <ul>
-            <li class="animated">
-              <a href="project.html">Work</a>
-            </li>
-            <li class="animated">
-              <a href="about.html">About</a>
-            </li>
-            <li class="animated">
-              <a href="resume.html">Resume</a>
-            </li>
-            <li class="animated">
-              <a href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </nav>
+        <div id="toggle" class="button_container">
+          <span class="top"></span>
+          <span class="top"></span>
+          <span class="top"></span>
+        </div>
       </header>
       <!-- intro -->
       <div class="content container">
@@ -70,6 +54,25 @@
       </div>
     </div>
     <div class="projectList container">
+      <!-- Nav -->
+      <div id="overlay" class="overlay">
+        <nav class="overlay-menu">
+          <ul>
+            <li>
+              <a href="#"> Work</a>
+            </li>
+            <li>
+              <a href="#"> About</a>
+            </li>
+            <li>
+              <a href="#"> Resume</a>
+            </li>
+            <li>
+              <a href="#"> Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
       <section class="section section--purple" id="section-next">
         <!-- Busy Bus -->
         <div class="project" id="BusyBus">
@@ -146,4 +149,6 @@
       </div>
     </footer>
   </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="scripts/burger.js"></script>
 </html>
