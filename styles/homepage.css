@@ -555,7 +555,7 @@ li {
 @media screen and (max-width: 768px) {
   .logo {
     padding-top: 7.2px;
-    padding-left: 10px;
+    padding-left: 25px;
     position: absolute;
   }
   .logo_img {
