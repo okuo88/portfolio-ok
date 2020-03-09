@@ -569,6 +569,13 @@ li {
     right: 8%;
   }
 
+  .overlay nav {
+    height: 50%;
+    top: 35%;
+    font-size: 65px;
+    font-weight: 600;
+  }
+
   .hero {
     height: 120vh;
     padding-top: 20px;
@@ -593,7 +600,7 @@ li {
   }
 
   .intro__link {
-    bottom: 22px;
+    bottom: 25px;
     font-size: 22px;
   }
 
