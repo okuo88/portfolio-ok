@@ -474,3 +474,87 @@ p {
   line-height: 1.5;
   font-weight: 400;
 }
+
+/* iPhone X */
+@media screen and (max-width: 768px) {
+  .container {
+    margin-left: 30px;
+  }
+
+  .content {
+    max-width: 335px;
+    padding-left: 30px;
+  }
+
+  .logo {
+    width: 95px;
+    height: 90px;
+  }
+
+  nav {
+    display: none;
+  }
+  .prototype {
+    font-size: 22px;
+  }
+  .container h1 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  h2 {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+  h3 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 15px;
+  }
+  h4 {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 38px;
+  }
+  h7 {
+    font-size: 26px;
+  }
+
+  .ioverview {
+    width: 75px;
+    margin-top: 50px;
+  }
+
+  .cubecloud {
+    width: 420px;
+    padding-top: 120px;
+    margin-left: -30px;
+  }
+  .competitive {
+    width: 375px;
+  }
+  .personas {
+    width: 375px;
+  }
+  .logosketch {
+    width: 375px;
+  }
+  .styles {
+    width: 375px;
+  }
+  .preference {
+    max-width: 375px;
+  }
+  .folding {
+    max-width: 375px;
+  }
+}
+/* tablet */
+@media screen and (min-width: 768px) {
+}
+
+/* tablet 2 */
+@media screen and (min-width: 1024px) {
+}
