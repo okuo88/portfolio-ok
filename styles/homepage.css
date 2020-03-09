@@ -565,7 +565,7 @@ li {
 
   .button_container {
     position: fixed;
-    top: 4%;
+    top: 5%;
     right: 7%;
   }
 
@@ -577,7 +577,7 @@ li {
 
   .HELLO h5 {
     font-size: 12vw;
-    padding-top: 60px;
+    padding-top: 55px;
   }
 
   .content {
@@ -593,7 +593,7 @@ li {
   }
 
   .intro__link {
-    bottom: 15px;
+    bottom: 18px;
     font-size: 22px;
   }
 
