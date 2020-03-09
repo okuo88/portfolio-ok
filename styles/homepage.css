@@ -107,10 +107,11 @@
   }
 } */
 
+/* Burger Nav */
 .button_container {
   position: fixed;
-  top: 6.5%;
-  right: 5%;
+  top: 7%;
+  right: 4%;
   height: 27px;
   width: 26px;
   cursor: pointer;
@@ -435,6 +436,10 @@ h5 span:nth-child(12) {
   left: 50%;
 }
 
+.fa-chevron-down:before {
+  color: #15ff49;
+}
+
 .projectList {
   min-height: 480px;
   position: relative;
@@ -454,19 +459,19 @@ h5 span:nth-child(12) {
   padding-left: 100px;
   padding-right: 50px;
   max-width: 684px;
-  padding-top: 10px;
+  padding-top: 0px;
 }
 
 .img-02 {
   padding-left: 100px;
   padding-right: 50px;
   max-width: 684px;
-  padding-top: 10px;
+  padding-top: 8px;
 }
 
 .description {
   width: 500px;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 h1 {
@@ -474,6 +479,7 @@ h1 {
   font-size: 2em;
   line-height: 1.2;
   padding-left: 10px;
+  padding-top: 10px;
 }
 
 h2 {
@@ -481,7 +487,7 @@ h2 {
   color: #000000;
   padding: 10px;
   font-weight: lighter;
-  line-height: 1.3;
+  line-height: 1.2;
 }
 
 h3 {
@@ -499,7 +505,7 @@ h4 {
 }
 
 .button {
-  background-color: #000000;
+  background-color: #098bff;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -548,8 +554,8 @@ li {
 /* mobile */
 @media screen and (max-width: 768px) {
   .logo {
-    padding-top: 0px;
-    padding-left: 0px;
+    padding-top: 7.2px;
+    padding-left: 10px;
     position: absolute;
   }
   .logo_img {
@@ -557,8 +563,10 @@ li {
     height: 48px;
   }
 
-  .burger-menu {
-    top: 8.2%;
+  .button_container {
+    position: fixed;
+    top: 4%;
+    right: 7%;
   }
 
   .hero {
@@ -569,7 +577,7 @@ li {
 
   .HELLO h5 {
     font-size: 12vw;
-    padding-top: 68px;
+    padding-top: 60px;
   }
 
   .content {
@@ -581,11 +589,11 @@ li {
 
   .content p {
     font-size: 35px;
-    padding-top: 8px;
+    padding-top: 5px;
   }
 
   .intro__link {
-    bottom: 35px;
+    bottom: 15px;
     font-size: 22px;
   }
 
