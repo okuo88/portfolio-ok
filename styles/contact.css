@@ -378,8 +378,8 @@ a:hover {
 }
 
 .logo {
-  width: 115px;
-  height: 95px;
+  width: 100px;
+  height: 90px;
 }
 
 nav {
@@ -464,10 +464,10 @@ p {
   }
 
   .logo {
-    width: 128px;
-    height: 54px;
+    width: 122px;
+    height: 82px;
     padding-left: 32px;
-    padding-top: 0px;
+    padding-top: 30px;
   }
 
   nav {
@@ -524,12 +524,6 @@ p {
   }
   nav {
     display: none;
-  }
-  .logo {
-    width: 127.5px;
-    height: 54px;
-    padding-left: 32px;
-    padding-top: 0px;
   }
 }
 
