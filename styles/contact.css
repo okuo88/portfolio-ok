@@ -525,6 +525,12 @@ p {
   nav {
     display: none;
   }
+  .logo {
+    width: 127.5px;
+    height: 54px;
+    padding-left: 32px;
+    padding-top: 0px;
+  }
 }
 
 /* tablet */
