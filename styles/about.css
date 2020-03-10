@@ -398,7 +398,8 @@ p {
   }
 
   p {
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 400;
   }
 
   .container h1 {

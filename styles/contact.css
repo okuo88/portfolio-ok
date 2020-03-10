@@ -383,8 +383,8 @@ a:hover {
 }
 
 .logo {
-  width: 130px;
-  height: 85px;
+  width: 115px;
+  height: 95px;
 }
 
 nav {
@@ -471,7 +471,7 @@ p {
 
   .logo {
     width: 128px;
-    height: 55px;
+    height: 54px;
     padding-left: 32px;
     padding-top: 0px;
   }
@@ -505,7 +505,7 @@ p {
     font-weight: 550;
     line-height: 6rem;
     font-family: "roboto", monospace;
-    padding-top: 90px;
+    padding-top: 80px;
     margin: 25px;
   }
 }
