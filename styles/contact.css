@@ -300,11 +300,6 @@ body {
   margin: 0 auto;
 }
 
-nav a {
-  text-decoration: none;
-  font-size: 17.6px;
-}
-
 a:hover {
   text-decoration: none;
   opacity: 0.8;
@@ -388,7 +383,7 @@ a:hover {
 }
 
 nav {
-  font-size: 1.1em;
+  font-size: 17.6px;
   text-align: right;
   font-weight: lighter;
   padding-top: 50px;
@@ -399,7 +394,6 @@ li {
   display: inline;
   padding: 18px;
   text-decoration: none;
-  font-size: 0.8em;
 }
 
 .footer h1 {
@@ -478,14 +472,6 @@ p {
 
   nav {
     display: none;
-    padding-top: 0;
-  }
-
-  nav a {
-    height: 65%;
-    top: 20%;
-    font-size: 55px;
-    font-weight: 600;
   }
 
   .button_container {
