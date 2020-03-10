@@ -518,10 +518,10 @@ p {
   }
 
   .logo {
-    width: 122px;
+    width: 120px;
     height: 65px;
     padding-left: 25px;
-    padding-top: 10px;
+    padding-top: 0px;
   }
 
   .button_container {
