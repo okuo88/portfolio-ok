@@ -479,11 +479,8 @@ p {
     right: 8%;
   }
   .overlay nav {
-    height: 65%;
-    top: 50%;
-    font-size: 65px;
-    font-weight: 600;
-    display: block;
+    height: 90%;
+    top: 45%;
   }
   .header p {
     text-align: left;
