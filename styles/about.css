@@ -288,7 +288,7 @@ h2 {
 
 .me {
   padding-top: 90px;
-  max-width: 974px;
+  width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -416,6 +416,9 @@ p {
   h3 {
     font-size: 22px;
     margin-top: 50px;
+  }
+  .me {
+    width: 100%;
   }
 }
 @media (max-width: 768px) and (min-width: 401px) {
