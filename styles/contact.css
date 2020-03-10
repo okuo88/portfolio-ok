@@ -480,6 +480,17 @@ p {
     display: none;
   }
 
+  nav a {
+    height: 65%;
+    top: 20%;
+    font-size: 55px;
+    font-weight: 600;
+  }
+
+  li {
+    padding: 0;
+  }
+
   .button_container {
     top: 5%;
     right: 8%;
@@ -497,7 +508,7 @@ p {
     font-weight: 550;
     line-height: 6rem;
     font-family: "roboto", monospace;
-    padding-top: 100px;
+    padding-top: 90px;
     margin: 25px;
   }
 }

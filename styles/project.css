@@ -842,12 +842,12 @@ p {
   .cubecloud {
     width: 100%;
   }
-}
-.footer {
-  width: 100%;
-}
-.footer h1 {
-  font-size: 28px;
+  .footer {
+    width: 100%;
+  }
+  .footer h1 {
+    font-size: 28px;
+  }
 }
 
 /* tablet */
