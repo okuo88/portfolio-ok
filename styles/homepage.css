@@ -574,11 +574,10 @@ li {
     position: absolute;
   }
   .logo_img {
-    width: 95px;
-    height: 55px;
+    width: 93px;
+    height: 53px;
     padding-left: 0px;
     padding-top: 0px;
-    margin-top: 0px;
   }
 
   .button_container {
