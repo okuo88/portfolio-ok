@@ -487,8 +487,8 @@ p {
     font-weight: 600;
   }
 
-  li {
-    padding: 0;
+  nav {
+    padding-top: 0;
   }
 
   .button_container {
