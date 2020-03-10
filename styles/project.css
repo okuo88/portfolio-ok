@@ -179,6 +179,7 @@ a {
 a:hover {
   text-decoration: none;
   opacity: 0.8;
+  color: #098bff;
 }
 
 .burger-menu {
@@ -789,7 +790,7 @@ p {
     margin-bottom: 20px;
   }
   .flow {
-    width: 360px;
+    width: 100%;
     margin-left: -30px;
     padding-top: 0px;
     padding-bottom: 0px;
@@ -839,7 +840,7 @@ p {
   }
 }
 .footer {
-  width: 375px;
+  width: 100%;
 }
 .footer h1 {
   font-size: 28px;
