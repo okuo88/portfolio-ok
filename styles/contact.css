@@ -548,18 +548,12 @@ p {
     margin-left: 38px;
   }
 
-  .container {
-    width: 375px;
-    height: 100%;
-  }
-
   .logo {
     width: 122px;
-    height: 82px;
-    padding-left: 32px;
-    padding-top: 30px;
+    height: 65px;
+    padding-left: 25px;
+    padding-top: 10px;
   }
-
   nav {
     display: none;
   }
@@ -575,31 +569,54 @@ p {
     font-weight: 600;
     display: block;
   }
-
-  p {
-    font-size: 16px;
-  }
-
-  .container h1 {
-    font-size: 25px;
-    font-weight: 400;
-    margin-top: 35px;
-    margin-bottom: -40px;
+  .header p {
+    text-align: left;
+    font-size: 5rem;
+    font-weight: 550;
+    line-height: 6rem;
+    font-family: "roboto", monospace;
+    padding-top: 100px;
+    margin: 25px;
   }
 }
+
 @media (max-width: 768px) and (min-width: 401px) {
   .container {
     width: 100%;
     max-width: 720px;
     margin: 0 auto;
   }
-}
+  .header p {
+    text-align: left;
+    font-size: 5.5rem;
+    font-weight: 600;
+    line-height: 6rem;
+    font-family: "roboto", monospace;
+    padding-top: 100px;
+    margin: 25px;
+  }
 
-.footer {
-  width: 100%;
-}
-.footer h1 {
-  font-size: 28px;
+  .logo {
+    width: 122px;
+    height: 65px;
+    padding-left: 25px;
+    padding-top: 10px;
+  }
+
+  .button_container {
+    top: 6%;
+    right: 6%;
+  }
+
+  .footer {
+    width: 100%;
+  }
+  .footer h1 {
+    font-size: 28px;
+  }
+  nav {
+    display: none;
+  }
 }
 
 /* tablet */
