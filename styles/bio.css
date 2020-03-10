@@ -403,196 +403,25 @@ p {
     display: block;
   }
 
-  .prototype {
-    font-size: 18px;
-  }
-
   p {
     font-size: 16px;
   }
 
   .container h1 {
-    font-size: 28px;
-    font-weight: 500;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 400;
+    padding-top: 0px;
+    margin-bottom: -40px;
   }
+
   h2 {
-    font-size: 20px;
-    margin-top: 14px;
-    margin-bottom: 14px;
-  }
-  h3 {
-    font-size: 21px;
-    margin-top: 20px;
-    margin-bottom: 12px;
-  }
-  h4 {
     font-size: 18px;
     line-height: 1.5;
     margin-bottom: 38px;
   }
-  h5 {
+  h3 {
     font-size: 22px;
     margin-top: 50px;
-  }
-
-  h6 {
-    font-size: 14px;
-    padding-bottom: 20px;
-  }
-  h7 {
-    font-size: 26px;
-  }
-
-  .icons {
-    max-width: 55px;
-    max-height: 60px;
-    margin-top: 50px;
-  }
-
-  .ioverview {
-    width: 75px;
-    margin-top: 50px;
-  }
-
-  .iproblem {
-    height: 60px;
-    margin-top: 50px;
-  }
-
-  .ivisual {
-    height: 33px;
-    margin-top: 50px;
-  }
-
-  .ibrain {
-    width: 68px;
-    margin-top: 50px;
-  }
-
-  .idiscovery {
-    width: 54px;
-    margin-top: 50px;
-  }
-
-  .ipersona {
-    width: 50px;
-    margin-top: 50px;
-    margin-bottom: 10px;
-  }
-
-  .iprototype {
-    width: 70px;
-    margin-top: 50px;
-    margin-bottom: 0px;
-  }
-
-  .iskin {
-    width: 50px;
-    margin-top: 50px;
-  }
-
-  .iresults {
-    width: 66px;
-    margin-top: 70px;
-  }
-
-  .ifinal {
-    width: 55px;
-    margin-top: 50px;
-  }
-
-  .me {
-    width: 375px;
-    padding-top: 120px;
-  }
-  .interaction {
-    width: 375px;
-    padding-top: 5px;
-    margin-left: -40px;
-  }
-  .research {
-    padding-top: 0px;
-    padding-bottom: 26px;
-    width: 345px;
-    margin-left: -20px;
-  }
-  .competitive {
-    width: 375px;
-    margin-left: -40px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-  .competitive_01 {
-    max-width: 50px;
-    margin-right: 20px;
-  }
-  .competitive_02 {
-    max-width: 50px;
-    margin-right: 20px;
-  }
-  .competitive_03 {
-    max-width: 75px;
-  }
-  .row {
-    display: block;
-    margin-left: -13px;
-  }
-  .column {
-    flex: 33.33%;
-    padding-left: 0px;
-    padding-top: 10px;
-    margin-bottom: 20px;
-  }
-  .flow {
-    width: 100%;
-    margin-left: -30px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
-  .sketch {
-    width: 375px;
-    margin-left: -40px;
-    padding-top: 0px;
-  }
-  .logosketch {
-    width: 280px;
-  }
-  .styles {
-    width: 300px;
-    margin-left: 0px;
-    padding-top: 10px;
-    padding-bottom: 15px;
-  }
-  .wireframes {
-    width: 375px;
-    margin-left: -40px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
-  .preference {
-    max-width: 290px;
-    padding-top: 0px;
-    padding-bottom: 25px;
-  }
-  .win {
-    width: 95%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .invision {
-    padding: 12px 32px;
-    font-size: 12px;
-    min-width: 160px;
-    margin-left: 35px;
-    margin-top: 0px;
-  }
-  .folding {
-    max-width: 320px;
-    margin-left: -15px;
-    padding-top: 0px;
   }
 }
 .footer {
@@ -600,6 +429,9 @@ p {
 }
 .footer h1 {
   font-size: 28px;
+}
+.me {
+  width: 100%;
 }
 
 /* tablet */
