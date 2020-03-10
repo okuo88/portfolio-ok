@@ -719,9 +719,9 @@ li {
   }
 
   .overlay nav {
-    ]height: 80%;
+    height: 80%;
     top: 45%;
-    font-size: 90px;
+    font-size: 100px;
   }
 
   .HELLO h5 {
@@ -773,7 +773,7 @@ li {
   }
 
   .overlay nav {
-    top: 50%;
+    top: 55%;
   }
 
   .HELLO h5 {
