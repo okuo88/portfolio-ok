@@ -1,0 +1,636 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  background-color: white;
+  width: 100vw;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  box-sizing: border-box;
+  cursor: url(img/cursor.cur), pointer;
+  overflow-x: hidden;
+}
+
+/*MENU*/
+
+.logo {
+  padding-top: 56px;
+  padding-left: 78px;
+  position: absolute;
+}
+
+.logo_img {
+  width: 125px;
+  height: 67px;
+}
+
+nav {
+  font-size: 1.2em;
+  text-align: right;
+  font-weight: lighter;
+  padding-top: 50px;
+  padding-right: 80px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+}
+a:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+li {
+  display: inline;
+  padding: 18px;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.hero {
+  background-image: linear-gradient(135deg, #4b81ff 0%, #38dcf7 100%);
+  background: linear-gradient(45deg, #c32bff, #c32bff, #1c8bf7, #61e9fa);
+  background-size: 400% 400%;
+  height: 100vh;
+  min-height: 480px;
+  -webkit-animation: Gradient 10s ease infinite;
+  -moz-animation: Gradient 10s ease infinite;
+  -ms-animation: Gradient 10s ease infinite;
+  animation: Gradient 10s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.content {
+  font-size: 60px;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  text-align: inherit;
+}
+
+/*SCROLLERCOASTER*/
+.scroll {
+  height: 4vh;
+  overflow-x: auto;
+  overflow-y: hidden;
+  position: fixed;
+  bottom: 3vh;
+  width: auto;
+  z-index: 6;
+  background-color: #ffacc7;
+}
+
+.scroll h3 {
+  font-size: 2.4vh;
+  color: #ff3000;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  display: inline-block;
+  width: auto;
+  height: 5vh;
+  margin: 0;
+  padding-top: 0.4vh;
+
+  /* Apply animation to this element */
+  -moz-animation: scroller 40s linear infinite;
+  -webkit-animation: scroller 40s linear infinite;
+  animation: scroller 40s linear infinite;
+}
+
+.heart {
+  height: 40%;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+/* Move it (define the animation) */
+
+@-webkit-keyframes scroller {
+  0% {
+    -webkit-transform: translateX(13%);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+  }
+}
+
+.HELLO {
+  float: left;
+  width: 100vw;
+  overflow: hidden;
+  display: inline;
+  padding-left: 100px;
+}
+
+.HELLO h1 {
+  color: white;
+  font-size: 9vw;
+  float: left;
+  margin-right: 5vw;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+}
+
+h1 {
+  font-size: 14vw;
+  margin-top: 0;
+  padding-right: 8vw;
+  text-align: left;
+  padding-top: 30px;
+}
+
+.left {
+  float: left;
+  width: 100vw;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-left: 5vw;
+  top: 0;
+  z-index: 5;
+}
+
+.left p {
+  color: black;
+  font-size: 6vw;
+  width: 45vw;
+  float: left;
+  text-align: left;
+  margin: 0;
+  padding-left: 10px;
+  margin-top: 2vw;
+  margin-bottom: 0;
+}
+
+.intro {
+  font-size: 6vw;
+  padding-top: 160px;
+}
+
+.intro p {
+  padding-left: 100px;
+  color: white;
+  padding-top: 30px;
+}
+
+.minuscula {
+  line-height: 6.5vw;
+  padding-top: 90px;
+}
+
+.insights {
+  margin-top: -1vh;
+  margin-bottom: -1vh;
+}
+
+.perro-container {
+  width: 100vw;
+}
+
+.perro {
+  width: 40vw;
+  float: left;
+  padding-top: 150px;
+  padding-left: 50px;
+}
+
+.solve p {
+  padding-top: 200px;
+  padding-right: 150px;
+  float: right;
+  font-size: 60px;
+  color: black;
+}
+
+.padding {
+  height: 2.2vh;
+  width: 100vw;
+  float: right;
+  display: block;
+}
+
+::selection {
+  background: transparent;
+}
+
+/* HELLO ANIMATION */
+h1 {
+  cursor: default;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  text-align: center;
+}
+
+h1 span {
+  position: relative;
+  top: 0.5vh;
+  margin: 0;
+  animation: wave 1.7s infinite;
+  -webkit-animation: wave 1.7s infinite; /*linear  alternate for more bouncyness switch linear to ease*/
+}
+
+h1 span:nth-child(2) {
+  -webkit-animation-delay: 0.07s;
+}
+
+h1 span:nth-child(3) {
+  -webkit-animation-delay: 0.14s;
+}
+
+h1 span:nth-child(4) {
+  -webkit-animation-delay: 0.21s;
+}
+
+h1 span:nth-child(5) {
+  -webkit-animation-delay: 0.28s;
+}
+
+h1 span:nth-child(6) {
+  -webkit-animation-delay: 0.35s;
+}
+
+h1 span:nth-child(7) {
+  -webkit-animation-delay: 0.42s;
+}
+
+h1 span:nth-child(8) {
+  -webkit-animation-delay: 0.49s;
+}
+
+h1 span:nth-child(9) {
+  -webkit-animation-delay: 0.56s;
+}
+
+h1 span:nth-child(10) {
+  -webkit-animation-delay: 0.63s;
+}
+
+h1 span:nth-child(11) {
+  -webkit-animation-delay: 0.7s;
+}
+
+h1 span:nth-child(12) {
+  -webkit-animation-delay: 0.77s;
+}
+
+.footer {
+  width: 100vw;
+  background: #ffacc7;
+  bottom: 0;
+  z-index: 6;
+  height: auto;
+}
+
+.footer h2 {
+  color: #ff3000;
+  font-size: 4vw;
+  padding-top: 12px;
+}
+
+.footer h3 {
+  line-height: 80%;
+  color: #ff3000;
+  margin-top: -1vh;
+  font-size: 3vw;
+}
+
+.footer h4 {
+  line-height: 80%;
+  color: #ff3000;
+  font-weight: normal;
+  font-size: 2.3vw;
+  text-align: right;
+  padding-right: 10vw;
+  margin-top: -5vw;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #ff3000;
+  cursor: pointer;
+}
+
+.footer li {
+  font-size: 0.6em;
+  padding: 12px;
+}
+
+ul {
+  padding: 0;
+  margin-left: -35px;
+}
+
+.padding_2 {
+  height: 0.2vh;
+  width: 100vw;
+  float: right;
+  display: block;
+}
+
+/*RESPONSIVENIZ*/
+
+@media only screen and (min-width: 375px) {
+  /* bigger phones: */
+  .minuscula {
+    line-height: 6.5vw;
+  }
+}
+
+@-webkit-keyframes scroller {
+  0% {
+    -webkit-transform: translateX(16%);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+  }
+}
+
+@media only screen and (min-width: 425px) {
+  /* even bigger phones: */
+  .Logo {
+    width: 5.5%;
+  }
+}
+
+.minuscula {
+  line-height: 6.5vw;
+}
+
+.heart {
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+@-webkit-keyframes scroller {
+  0% {
+    -webkit-transform: translateX(15%);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  /* For tablets: */
+  .Logo {
+    width: 35px;
+  }
+
+  .values {
+    background-size: contain, 28%;
+  }
+
+  @-webkit-keyframes scroller {
+    0% {
+      -webkit-transform: translateX(30%);
+    }
+    100% {
+      -webkit-transform: translateX(-100%);
+    }
+  }
+
+  .heart {
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }
+
+  h1 {
+    font-size: 12vw;
+    margin-top: 3px;
+  }
+
+  .right p {
+    font-size: 4.7vw;
+  }
+
+  .left p {
+    font-size: 4.7vw;
+  }
+
+  .minuscula {
+    line-height: 4.7vw;
+  }
+
+  .insights {
+    margin-top: -2vh;
+    margin-bottom: -2vh;
+  }
+
+  .curves {
+    width: 40vw;
+    margin-top: 0;
+  }
+
+  .we {
+    margin-top: -2vh;
+  }
+
+  .padding {
+    height: 6.4vh;
+  }
+
+  .HELLO h1 {
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    height: auto;
+  }
+
+  @-webkit-keyframes wave {
+    0% {
+      top: 20px;
+    }
+    50% {
+      top: -25px;
+    }
+    100% {
+      top: 20px;
+    }
+  }
+
+  .footer {
+    height: 170px;
+  }
+
+  .footer h2 {
+    font-size: 23px;
+    margin-left: -25px;
+  }
+
+  .footer h3 {
+    line-height: 80%;
+    font-size: 16px;
+    margin-left: -25px;
+  }
+
+  .footer h4 {
+    font-size: 12px;
+    text-align: right;
+    margin-top: -23px;
+    padding-right: 8vw;
+  }
+
+  .padding_2 {
+    height: 10px;
+    width: 100vw;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  /* For lil laptops */
+
+  h1 {
+    font-size: 13vw;
+    margin-top: 4px;
+  }
+
+  @-webkit-keyframes scroller {
+    0% {
+      -webkit-transform: translateX(43%);
+    }
+    100% {
+      -webkit-transform: translateX(-100%);
+    }
+  }
+
+  .right p {
+    font-size: 3vw;
+  }
+
+  .left p {
+    font-size: 3vw;
+  }
+
+  .intro p {
+    font-size: 5.1vw;
+  }
+
+  .minuscula {
+    line-height: 3.5vw;
+  }
+
+  .insights {
+    margin-top: -2.7vh;
+    margin-bottom: -2.7vh;
+    line-height: 4vw;
+  }
+
+  .we {
+    margin-top: -5vh;
+  }
+
+  @-webkit-keyframes wave {
+    0% {
+      top: 30px;
+    }
+    50% {
+      top: -30px;
+    }
+    100% {
+      top: 30px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  /* For real biggies: */
+
+  .scroll {
+    height: 5vh;
+  }
+
+  .scroll h3 {
+    font-size: 2.8vh;
+    padding-top: 0.9vh;
+  }
+
+  .minuscula {
+    line-height: 5vw;
+  }
+
+  .right p {
+    font-size: 4vw;
+  }
+
+  .left p {
+    font-size: 4vw;
+  }
+
+  .intro p {
+    font-size: 5vw;
+  }
+
+  .insights {
+    margin-top: -4vh;
+    margin-bottom: -4vh;
+    line-height: 5.2vw;
+  }
+
+  .curves {
+    width: 39vw;
+    margin-top: 0;
+  }
+
+  .we {
+    margin-top: -5vh;
+  }
+
+  @-webkit-keyframes wave {
+    0% {
+      top: 30px;
+    }
+    50% {
+      top: -30px;
+    }
+    100% {
+      top: 30px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  /* For absolute whoppers like 4K huge mega maybe not necessary but we're pros */
+}

@@ -704,12 +704,16 @@ li {
 
   .logo {
     padding-left: 40px;
-    padding-top: 20px;
+    padding-top: 30px;
   }
 
   .logo_img {
     width: 100px;
     height: 60px;
+  }
+
+  .button_container {
+    top: 6%;
   }
 
   .overlay nav {
@@ -749,8 +753,7 @@ li {
     font-size: 1.2em;
   }
 }
-
-/* tablet 2 */
+/* tablet2 */
 @media screen and (min-width: 1024px) {
   .logo {
     padding-left: 10px;
@@ -763,7 +766,7 @@ li {
   }
 
   .button_container {
-    top: 8%;
+    top: 5%;
     right: 5%;
   }
 
@@ -778,5 +781,18 @@ li {
 
   .content {
     font-size: 65px;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 1025px) {
+  .logo {
+    padding-left: 10px;
+    padding-top: 50px;
+  }
+
+  .button_container {
+    top: 8%;
+    right: 5%;
   }
 }

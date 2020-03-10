@@ -1,9 +1,3 @@
-@media (min-width: 768px) {
-  .container {
-    max-width: 720px;
-  }
-}
-
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
@@ -613,7 +607,7 @@ p {
 }
 
 /* iPhone X */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 414px) {
   .content {
     max-width: 300px;
     margin-left: 38px;
@@ -839,6 +833,16 @@ p {
     padding-top: 0px;
   }
 }
+@media (max-width: 768px) and (min-width: 414px) {
+  .container {
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  .cubecloud {
+    width: 100%;
+  }
+}
 .footer {
   width: 100%;
 }
@@ -847,7 +851,72 @@ p {
 }
 
 /* tablet */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 769px) {
+  .button_container {
+    display: none;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 720px;
+    margin-left: 50px;
+  }
+
+  nav {
+    margin-right: -20px;
+  }
+  .cubecloud {
+    width: 100%;
+  }
+  .footer {
+    width: 100%;
+  }
+  .footer h1 {
+    font-size: 28px;
+  }
+  .cubecloud {
+    width: 100%;
+  }
+  .column {
+    margin-left: 10px;
+  }
+  .persona1 {
+    width: 230px;
+  }
+  .persona2 {
+    width: 230px;
+  }
+  .persona3 {
+    width: 230px;
+  }
+  .preference {
+    width: 100%;
+  }
+  .folding {
+    width: 100%;
+  }
+  .competitive {
+    width: 800px;
+    margin-left: -40px;
+  }
+  .competitive_01 {
+    max-width: 100px;
+    margin-right: 20px;
+  }
+  .competitive_02 {
+    max-width: 100px;
+    margin-right: 20px;
+  }
+  .competitive_03 {
+    max-width: 120px;
+  }
+  .styles {
+    width: 300px;
+    margin-left: 40px;
+  }
+}
+/* desktop */
+@media screen and (min-width: 769px) {
   .button_container {
     display: none;
   }
