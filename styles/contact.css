@@ -465,9 +465,9 @@ p {
 
   .logo {
     width: 122px;
-    height: 82px;
+    height: 65px;
     padding-left: 32px;
-    padding-top: 30px;
+    padding-top: 10px;
   }
 
   nav {
