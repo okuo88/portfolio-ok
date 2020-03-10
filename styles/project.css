@@ -479,7 +479,7 @@ p {
 @media screen and (max-width: 768px) {
   .content {
     max-width: 300px;
-    margin-left: 40px;
+    margin-left: 38px;
   }
 
   .container {
@@ -629,11 +629,11 @@ p {
   .competitive_03 {
     max-width: 75px;
   }
-  .personas {
-    width: 340px;
-    margin-left: -22px;
-    padding-top: 0px;
-    padding-bottom: 10px;
+  .persona {
+    width: 300px;
+    margin-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 30px;
   }
   .flow {
     width: 360px;
