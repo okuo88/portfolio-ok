@@ -410,7 +410,7 @@ p {
   .container h1 {
     font-size: 25px;
     font-weight: 400;
-    padding-top: 0px;
+    margin-top: 40px;
     margin-bottom: -40px;
   }
 
