@@ -383,8 +383,8 @@ a:hover {
 }
 
 .logo {
-  width: 100px;
-  height: 90px;
+  width: 130px;
+  height: 85px;
 }
 
 nav {
@@ -470,17 +470,18 @@ p {
   }
 
   .logo {
-    width: 122px;
-    height: 65px;
-    padding-left: 25px;
-    padding-top: 10px;
+    width: 130px;
+    height: 58px;
+    padding-left: 32px;
+    padding-top: 0px;
   }
+
   nav {
     display: none;
   }
 
   .button_container {
-    top: 5.8%;
+    top: 5%;
     right: 6%;
   }
   .overlay nav {
@@ -515,13 +516,6 @@ p {
     font-family: "roboto", monospace;
     padding-top: 100px;
     margin: 25px;
-  }
-
-  .logo {
-    width: 120px;
-    height: 65px;
-    padding-left: 25px;
-    padding-top: 0px;
   }
 
   .button_container {
