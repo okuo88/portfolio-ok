@@ -478,6 +478,7 @@ p {
 
   nav {
     display: none;
+    padding-top: 0;
   }
 
   nav a {
@@ -485,10 +486,6 @@ p {
     top: 20%;
     font-size: 55px;
     font-weight: 600;
-  }
-
-  nav {
-    padding-top: 0;
   }
 
   .button_container {
