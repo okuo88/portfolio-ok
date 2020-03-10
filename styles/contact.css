@@ -470,8 +470,8 @@ p {
   }
 
   .logo {
-    width: 130px;
-    height: 58px;
+    width: 128px;
+    height: 55px;
     padding-left: 32px;
     padding-top: 0px;
   }
@@ -482,7 +482,7 @@ p {
 
   .button_container {
     top: 5%;
-    right: 6%;
+    right: 8%;
   }
   .overlay nav {
     height: 65%;
