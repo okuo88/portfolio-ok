@@ -437,13 +437,15 @@ h4 {
   max-width: 220px;
 }
 
-.personas {
-  width: 900px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 25px;
-  padding-bottom: 30px;
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding-left: 0px;
+  padding-top: 20px;
+  margin-bottom: -70px;
 }
 
 .flow {
@@ -776,11 +778,15 @@ p {
   .competitive_03 {
     max-width: 75px;
   }
-  .persona {
-    width: 300px;
-    margin-left: 0px;
+  .row {
+    display: block;
+    margin-left: -13px;
+  }
+  .column {
+    flex: 33.33%;
+    padding-left: 0px;
     padding-top: 10px;
-    padding-bottom: 30px;
+    margin-bottom: 20px;
   }
   .flow {
     width: 360px;
@@ -841,13 +847,6 @@ p {
 
 /* tablet */
 @media screen and (min-width: 768px) {
-  .button_container {
-    display: none;
-  }
-}
-
-/* tablet 2 */
-@media screen and (min-width: 1024px) {
   .button_container {
     display: none;
   }
