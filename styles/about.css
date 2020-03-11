@@ -446,6 +446,24 @@ p {
   nav {
     display: none;
   }
+  h1 {
+    font-size: 27px;
+    padding: 14px;
+  }
+
+  .footer {
+    padding: 20px;
+    font-size: 16px;
+  }
+
+  li {
+    padding: 12px;
+    font-size: 0.8em;
+  }
+
+  .copyright {
+    font-size: 0.9em;
+  }
 }
 
 /* tablet */
