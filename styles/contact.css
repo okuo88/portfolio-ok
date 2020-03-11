@@ -192,6 +192,7 @@ body {
 }
 
 .header p {
+  max-width: 1000px;
   text-align: left;
   font-size: 7rem;
   font-weight: 700;
@@ -317,7 +318,6 @@ a:hover {
 }
 
 nav {
-  font-size: 17.6px;
   text-align: right;
   font-weight: lighter;
   padding-top: 50px;
