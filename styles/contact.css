@@ -96,10 +96,10 @@
 }
 .overlay nav {
   position: relative;
-  height: 67%;
-  top: 42.5%;
+  height: 80%;
+  top: 48%;
   transform: translateY(-50%);
-  font-size: 65px;
+  font-size: 66px;
   font-weight: 600;
   text-align: center;
 }
@@ -422,9 +422,9 @@ p {
   }
 
   .overlay nav {
-    height: 69.5%;
-    top: 45%;
-    font-size: 66px;
+    height: 68%;
+    top: 44.5%;
+    font-size: 68px;
   }
 
   .header p {
@@ -484,8 +484,7 @@ p {
   .overlay nav {
     height: 70%;
     top: 46%;
-    font-size: 66px;
-    display: block;
+    font-size: 54px;
   }
 
   .footer {
