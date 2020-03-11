@@ -197,6 +197,7 @@ body {
 
 .header {
   min-height: 100%;
+  margin-bottom: -50px;
 }
 
 .header p {
@@ -370,6 +371,7 @@ p {
   font-size: 16px;
   padding: 20px;
   line-height: 1.5;
+  height: 50px;
 }
 
 .socials {
