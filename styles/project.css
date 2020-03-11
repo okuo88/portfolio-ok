@@ -548,6 +548,118 @@ p {
   line-height: 1.5;
   font-weight: 400;
 }
+/* iPhone X */
+@media (max-width: 320px) and (min-width: 320px) {
+  .content {
+    width: 320px;
+    padding: 0 1rem;
+  }
+
+  .content .row .column img {
+    width: 100%;
+  }
+
+  body {
+    overflow-x: hidden;
+    width: 320px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .cubecloud {
+    width: 100%;
+    padding-top: 100px;
+    margin-left: -29px;
+  }
+  .interaction {
+    width: 100%;
+    padding-top: 5px;
+  }
+  .research {
+    padding-top: 0px;
+    padding-bottom: 26px;
+    width: 100%;
+    margin-left: -0px;
+  }
+  .competitive {
+    width: 100%;
+    margin-left: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .competitive_01 {
+    max-width: 50px;
+    margin-right: 20px;
+  }
+  .competitive_02 {
+    max-width: 50px;
+    margin-right: 20px;
+  }
+  .competitive_03 {
+    max-width: 75px;
+  }
+  .row {
+    display: block;
+    margin-left: -13px;
+  }
+  .column {
+    flex: 33.33%;
+    padding-left: 0px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+  }
+  .flow {
+    width: 100%;
+    margin-left: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .sketch {
+    width: 100%;
+    margin-left: 0px;
+    padding-top: 0px;
+  }
+  .logosketch {
+    width: 280px;
+  }
+  .styles {
+    width: 300px;
+    margin-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
+  .wireframes {
+    width: 100%;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .preference {
+    max-width: 290px;
+    padding-top: 0px;
+    padding-bottom: 25px;
+  }
+  .win {
+    width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .invision {
+    padding: 12px 32px;
+    font-size: 12px;
+    min-width: 160px;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .folding {
+    max-width: 320px;
+    margin-left: 0px;
+    padding-top: 0px;
+  }
+}
 
 /* iPhone X */
 @media screen and (max-width: 414px) {
@@ -558,7 +670,8 @@ p {
   }
 
   .container {
-    width: 375px;
+    overflow-x: hidden;
+    width: 100%;
     height: 100%;
   }
 
