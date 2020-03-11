@@ -48,13 +48,14 @@ a:hover {
 }
 
 .logo {
-  padding-top: 35px;
+  left: 8%;
+  top: 4.5%;
   position: absolute;
 }
 
 .logo {
-  width: 97px;
-  height: 89px;
+  width: 100px;
+  height: 55px;
 }
 
 nav {
@@ -74,8 +75,8 @@ li {
 /* Burger Nav */
 .button_container {
   position: fixed;
-  top: 4%;
-  right: 6%;
+  top: 6%;
+  right: 8%;
   height: 27px;
   width: 26px;
   cursor: pointer;
@@ -314,13 +315,6 @@ p {
     height: 100%;
   }
 
-  .logo {
-    width: 120px;
-    height: 82px;
-    padding-left: 32px;
-    padding-top: 30px;
-  }
-
   nav li {
     display: none;
   }
@@ -404,6 +398,11 @@ p {
 
 /* tablet */
 @media screen and (min-width: 768px) {
+  .logo_img {
+    width: 100px;
+    height: 55px;
+  }
+
   .button_container {
     display: none;
   }

@@ -30,12 +30,9 @@ body {
   font-family: "San Francisco Display", sans-serif;
 }
 
-.container {
-  margin: 0 auto;
-}
-
 .logo {
-  padding-top: 40px;
+  left: 8%;
+  top: 4.5%;
   position: absolute;
 }
 
@@ -47,8 +44,8 @@ body {
 /* Burger Nav */
 .button_container {
   position: fixed;
-  top: 7%;
-  right: 4%;
+  top: 6%;
+  right: 8%;
   height: 27px;
   width: 26px;
   cursor: pointer;
@@ -324,6 +321,10 @@ h5 span:nth-child(12) {
   margin: auto;
 }
 
+.content {
+  padding-left: 8%;
+}
+
 .content p {
   font-size: 60px;
   letter-spacing: -0.02em;
@@ -451,21 +452,17 @@ li {
 /* iPhone X */
 @media screen and (max-width: 768px) {
   .logo {
-    padding-top: 7.2px;
-    padding-left: 10px;
     position: absolute;
   }
+
   .logo_img {
     width: 91.5px;
     height: 52px;
-    padding-left: 0px;
-    padding-top: 0px;
   }
 
   .button_container {
     position: fixed;
-    top: 5.25%;
-    right: 8%;
+    top: 4.5%;
   }
 
   .overlay nav {
@@ -487,7 +484,6 @@ li {
 
   .content {
     font-size: 36px;
-    padding-left: 30px;
     line-height: 1.1;
     padding-right: 37px;
   }
@@ -587,33 +583,23 @@ li {
 
 /* tablet */
 @media screen and (min-width: 768px) {
-  .logo {
-    padding-left: 40px;
-    padding-top: 30px;
-  }
-
   .logo_img {
     width: 100px;
     height: 55px;
   }
 
-  .button_container {
-    top: 6%;
-  }
-
   .HELLO h5 {
-    font-size: 10vw;
+    font-size: 9vw;
     padding-top: 10px;
   }
 
   .content {
-    font-size: 50px;
-    padding-top: 60px;
+    font-size: 49px;
+    padding-top: 58px;
   }
 
   .content p {
-    font-size: 97%;
-    padding-top: 10px;
+    padding-top: 8px;
   }
 
   .description {
@@ -634,48 +620,18 @@ li {
 }
 /* tablet2 */
 @media screen and (min-width: 1024px) {
-  .logo {
-    padding-left: 40px;
-    padding-top: 50px;
-  }
-
   .logo_img {
     width: 96px;
     height: 54px;
   }
 
-  .button_container {
-    top: 4.5%;
-    right: 5%;
-  }
-
   .content {
     font-size: 60px;
     padding-top: 120px;
-    padding-left: 20px;
   }
 
   .HELLO h5 {
     font-size: 7.5vw;
     padding-top: 0px;
-  }
-}
-
-/* desktop */
-@media screen and (min-width: 1025px) {
-  .logo {
-    padding-left: 7px;
-    padding-top: 36px;
-  }
-
-  .button_container {
-    top: 5%;
-    right: 5%;
-  }
-
-  .content {
-    font-size: 60px;
-    padding-top: 100px;
-    padding-left: 0px;
   }
 }

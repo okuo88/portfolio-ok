@@ -48,21 +48,22 @@ a:hover {
 }
 
 .logo {
-  padding-top: 35px;
+  left: 8%;
+  top: 4.5%;
   position: absolute;
 }
 
 .logo {
-  width: 97px;
-  height: 89px;
+  width: 100px;
+  height: 55px;
 }
 
 nav {
   font-size: 1.1em;
   text-align: right;
   font-weight: lighter;
-  padding-top: 50px;
-  padding-right: 10px;
+  padding-top: 5%;
+  padding-right: 1.5%;
 }
 
 li {
@@ -148,8 +149,8 @@ h7 {
 /* Burger Nav */
 .button_container {
   position: fixed;
-  top: 4%;
-  right: 6%;
+  top: 6%;
+  right: 8%;
   height: 27px;
   width: 26px;
   cursor: pointer;
@@ -551,20 +552,14 @@ p {
 /* iPhone X */
 @media screen and (max-width: 414px) {
   .content {
-    max-width: 300px;
-    margin-left: 38px;
+    max-width: 315px;
+    width: 100%;
+    margin: 0 auto;
   }
 
   .container {
     width: 375px;
     height: 100%;
-  }
-
-  .logo {
-    width: 122px;
-    height: 82px;
-    padding-left: 32px;
-    padding-top: 30px;
   }
 
   nav li {
@@ -575,6 +570,7 @@ p {
     top: 5.8%;
     right: 8%;
   }
+
   .overlay nav {
     height: 70%;
     top: 46%;
@@ -685,7 +681,7 @@ p {
 
   .cubecloud {
     width: 375px;
-    padding-top: 80px;
+    padding-top: 100px;
   }
   .interaction {
     width: 375px;
@@ -797,7 +793,6 @@ p {
 @media (max-width: 768px) and (min-width: 414px) {
   .container {
     width: 100%;
-    max-width: 720px;
     margin: 0 auto;
   }
   .cubecloud {
@@ -822,11 +817,11 @@ p {
     margin-left: 50px;
   }
 
-  nav {
-    margin-right: -20px;
+  .button_container {
+    top: 5%;
   }
 
-  .button_container {
+  nav li {
     display: none;
   }
 
