@@ -181,6 +181,8 @@
 html {
   font-size: 60%;
   background-color: var(--color-scheme-background);
+  height: 100%;
+  margin: 0;
 }
 
 body {
@@ -189,10 +191,12 @@ body {
   font-weight: 400;
   font-family: "Roboto", sans-serif;
   color: var(--color-scheme-text-color);
+  height: 100%;
+  margin: 0;
 }
 
 .header {
-  margin: 0 auto;
+  min-height: 100%;
 }
 
 .header p {
