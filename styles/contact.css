@@ -192,13 +192,13 @@ body {
 }
 
 .header p {
-  max-width: 800px;
+  max-width: 1000px;
   text-align: left;
   font-size: 7rem;
   font-weight: 700;
   line-height: 8.5rem;
   font-family: "roboto", monospace;
-  padding-top: 60px;
+  padding-top: 80px;
 }
 
 .header a {
@@ -322,6 +322,7 @@ nav {
   font-weight: lighter;
   padding-top: 50px;
   padding-right: 10px;
+  font-weight: 200;
 }
 
 li {
