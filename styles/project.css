@@ -34,6 +34,7 @@ body {
 
 a {
   text-decoration: none;
+  font-size: 18px;
 }
 
 a:hover {
@@ -68,7 +69,6 @@ li {
   display: inline;
   padding: 18px;
   text-decoration: none;
-  font-size: 18px;
 }
 
 .container h1 {
@@ -223,9 +223,9 @@ h7 {
 .overlay nav {
   position: relative;
   height: 80%;
-  top: 50%;
+  top: 48%;
   transform: translateY(-50%);
-  font-size: 90px;
+  font-size: 66px;
   font-weight: 600;
   text-align: center;
 }
@@ -578,7 +578,7 @@ p {
   .overlay nav {
     height: 70%;
     top: 46%;
-    font-size: 67px;
+    font-size: 66px;
     font-weight: 600;
     display: block;
   }
@@ -811,12 +811,6 @@ p {
   }
   nav li {
     display: none;
-  }
-
-  .overlay nav {
-    height: 70%;
-    top: 50%;
-    font-size: 75px;
   }
 }
 
