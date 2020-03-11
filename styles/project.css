@@ -34,7 +34,6 @@ body {
 
 a {
   text-decoration: none;
-  font-size: 18px;
 }
 
 a:hover {
@@ -58,7 +57,7 @@ a:hover {
 }
 
 nav {
-  font-size: 1.1em;
+  font-size: 18px;
   text-align: right;
   font-weight: lighter;
   padding-top: 50px;
