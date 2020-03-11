@@ -395,6 +395,12 @@ li {
   padding: 18px;
   text-decoration: none;
 }
+.footer li {
+  display: inline;
+  padding: 18px;
+  text-decoration: none;
+  font-size: 0.8em;
+}
 
 .footer h1 {
   font-size: 30px;
