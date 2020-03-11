@@ -97,10 +97,10 @@
 .overlay nav {
   position: relative;
   height: 80%;
-  top: 45%;
+  top: 48%;
   transform: translateY(-50%);
-  font-size: 100px;
-  font-weight: 800;
+  font-size: 66px;
+  font-weight: 600;
   text-align: center;
 }
 .overlay ul {
@@ -407,12 +407,12 @@ p {
 
   .logo {
     width: 122px;
-    height: 52px;
+    height: 82px;
     padding-left: 32px;
-    padding-top: 0px;
+    padding-top: 30px;
   }
 
-  nav {
+  nav li {
     display: none;
   }
 
@@ -421,20 +421,14 @@ p {
     right: 8%;
   }
 
-  .overlay nav {
-    height: 70%;
-    top: 46%;
-    font-size: 66px;
-    display: block;
-  }
-
   .header p {
     text-align: left;
     font-size: 4.8rem;
     font-weight: 550;
     line-height: 6rem;
     font-family: "roboto", monospace;
-    padding-top: 80px;
+    padding-top: 45px;
+    padding-bottom: 20px;
     margin: 28px;
     letter-spacing: inherit;
   }
@@ -481,13 +475,22 @@ p {
     right: 6%;
   }
 
+  .overlay nav {
+    height: 70%;
+    top: 46%;
+    font-size: 66px;
+    display: block;
+  }
+
   .footer {
     width: 100%;
   }
+
   .footer h1 {
     font-size: 28px;
   }
-  nav {
+
+  nav li {
     display: none;
   }
 }

@@ -121,11 +121,11 @@ body {
 }
 .overlay nav {
   position: relative;
-  height: 80%;
-  top: 45%;
+  height: 70%;
+  top: 50%;
   transform: translateY(-50%);
-  font-size: 100px;
-  font-weight: 800;
+  font-size: 90px;
+  font-weight: 600;
   text-align: center;
 }
 .overlay ul {
@@ -453,123 +453,6 @@ li {
   .logo {
     padding-top: 7.2px;
     padding-left: 10px;
-  }
-
-  .logo_img {
-    width: 80px;
-    height: 48px;
-  }
-
-  .button_container {
-    position: fixed;
-    top: 5%;
-    right: 8%;
-  }
-
-  .overlay nav {
-    height: 90%;
-    top: 45%;
-    font-size: 65px;
-    font-weight: 600;
-  }
-
-  .hero {
-    height: 120vh;
-    padding-top: 20px;
-    height: 660px;
-  }
-
-  .HELLO h5 {
-    font-size: 12vw;
-    padding-top: 55px;
-  }
-
-  .content {
-    font-size: 36px;
-    padding-left: 30px;
-    line-height: 1.1;
-    padding-right: 37px;
-  }
-
-  .content p {
-    font-size: 97%;
-    padding-top: 5px;
-  }
-
-  .intro__link {
-    bottom: 25px;
-    font-size: 22px;
-  }
-
-  .description {
-    padding-bottom: 50px;
-    width: 100%;
-    padding-left: 20px;
-  }
-
-  .img-01 {
-    width: 100%;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
-  .img-02 {
-    width: 100%;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
-  .button {
-    padding: 12px 32px;
-    font-size: 14px;
-    margin-top: 15px;
-    min-width: 175px;
-  }
-
-  h1 {
-    padding-top: 24px;
-    font-size: 1.8em;
-    line-height: 1;
-  }
-
-  h2 {
-    font-size: 1.1em;
-    font-weight: lighter;
-    line-height: 1.3;
-  }
-
-  h3 {
-    font-size: 22px;
-    margin-top: 100px;
-    text-align: center;
-    padding-bottom: 30px;
-  }
-
-  h4 {
-    font-size: 27px;
-    padding: 14px;
-  }
-
-  .footer {
-    padding: 20px;
-    font-size: 16px;
-  }
-
-  li {
-    padding: 12px;
-    font-size: 0.8em;
-  }
-
-  .copyright {
-    font-size: 0.9em;
-  }
-}
-
-/* iPhone X */
-@media screen and (max-width: 768px) {
-  .logo {
-    padding-top: 7.2px;
-    padding-left: 10px;
     position: absolute;
   }
   .logo_img {
@@ -586,10 +469,9 @@ li {
   }
 
   .overlay nav {
-    height: 65%;
-    top: 50%;
-    font-size: 65px;
-    font-weight: 600;
+    height: 64%;
+    top: 48%;
+    font-size: 66px;
   }
 
   .hero {
@@ -712,27 +594,21 @@ li {
 
   .logo_img {
     width: 100px;
-    height: 60px;
+    height: 55px;
   }
 
   .button_container {
     top: 6%;
   }
 
-  .overlay nav {
-    height: 80%;
-    top: 45%;
-    font-size: 100px;
-  }
-
   .HELLO h5 {
     font-size: 10vw;
-    padding-top: 20px;
+    padding-top: 10px;
   }
 
   .content {
     font-size: 50px;
-    padding-top: 80px;
+    padding-top: 60px;
   }
 
   .content p {
@@ -759,7 +635,7 @@ li {
 /* tablet2 */
 @media screen and (min-width: 1024px) {
   .logo {
-    padding-left: 10px;
+    padding-left: 40px;
     padding-top: 50px;
   }
 
@@ -769,16 +645,14 @@ li {
   }
 
   .button_container {
-    top: 5%;
+    top: 4.5%;
     right: 5%;
   }
 
   .content {
     font-size: 60px;
-  }
-
-  .overlay nav {
-    top: 55%;
+    padding-top: 120px;
+    padding-left: 20px;
   }
 
   .HELLO h5 {
@@ -790,12 +664,18 @@ li {
 /* desktop */
 @media screen and (min-width: 1025px) {
   .logo {
-    padding-left: 10px;
-    padding-top: 50px;
+    padding-left: 7px;
+    padding-top: 36px;
   }
 
   .button_container {
-    top: 8%;
+    top: 6%;
     right: 5%;
+  }
+
+  .content {
+    font-size: 60px;
+    padding-top: 100px;
+    padding-left: 0px;
   }
 }
