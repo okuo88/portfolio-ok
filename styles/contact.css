@@ -96,10 +96,10 @@
 }
 .overlay nav {
   position: relative;
-  height: 80%;
-  top: 48%;
+  height: 67%;
+  top: 42.5%;
   transform: translateY(-50%);
-  font-size: 66px;
+  font-size: 65px;
   font-weight: 600;
   text-align: center;
 }
