@@ -191,6 +191,10 @@ body {
   color: var(--color-scheme-text-color);
 }
 
+.header {
+  margin: 0 auto;
+}
+
 .header p {
   max-width: 1000px;
   text-align: left;
@@ -322,7 +326,6 @@ nav {
   font-weight: lighter;
   padding-top: 50px;
   padding-right: 10px;
-  font-weight: 200;
 }
 
 li {
