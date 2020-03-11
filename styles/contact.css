@@ -182,7 +182,6 @@ html {
   font-size: 60%;
   background-color: var(--color-scheme-background);
   height: 100%;
-  margin: 0;
 }
 
 body {
@@ -192,12 +191,12 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--color-scheme-text-color);
   height: 100%;
-  margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
-  min-height: 100%;
-  margin-bottom: -50px;
+  flex: 1 0 auto;
 }
 
 .header p {
@@ -371,7 +370,7 @@ p {
   font-size: 16px;
   padding: 20px;
   line-height: 1.5;
-  height: 50px;
+  flex-shrink: 0;
 }
 
 .socials {
