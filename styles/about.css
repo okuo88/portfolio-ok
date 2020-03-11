@@ -22,6 +22,7 @@
 
 body {
   font-family: "San Francisco Display", sans-serif;
+  font-size: 16.37px;
 }
 
 .container {
@@ -68,7 +69,6 @@ li {
   display: inline;
   padding: 18px;
   text-decoration: none;
-  font-size: 18px;
 }
 
 /* Burger Nav */
@@ -149,9 +149,9 @@ li {
 .overlay nav {
   position: relative;
   height: 80%;
-  top: 50%;
+  top: 48%;
   transform: translateY(-50%);
-  font-size: 90px;
+  font-size: 66px;
   font-weight: 600;
   text-align: center;
 }
@@ -374,7 +374,7 @@ p {
   }
 
   .overlay nav {
-    height: 64%;
+    height: 70%;
     top: 48%;
     font-size: 66px;
   }

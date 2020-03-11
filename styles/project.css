@@ -22,6 +22,7 @@
 
 body {
   font-family: "San Francisco Display", sans-serif;
+  font-size: 16.37px;
 }
 
 .container {
@@ -32,7 +33,7 @@ body {
   max-width: 974px;
 }
 
-a {
+nav a {
   text-decoration: none;
 }
 
@@ -57,7 +58,7 @@ a:hover {
 }
 
 nav {
-  font-size: 18px;
+  font-size: 1.1em;
   text-align: right;
   font-weight: lighter;
   padding-top: 50px;
