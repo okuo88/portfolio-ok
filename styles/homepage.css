@@ -26,6 +26,24 @@
   color: #ffffff;
 }
 
+body {
+  font-family: "San Francisco Display", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.logo {
+  padding-top: 40px;
+  position: absolute;
+}
+
+.logo_img {
+  width: 100px;
+  height: 55px;
+}
+
 /* Burger Nav */
 .button_container {
   position: fixed;
@@ -161,24 +179,6 @@
   }
 }
 
-body {
-  font-family: "San Francisco Display", sans-serif;
-}
-
-.container {
-  margin: 0 auto;
-}
-
-.logo {
-  padding-top: 40px;
-  position: absolute;
-}
-
-.logo_img {
-  width: 100px;
-  height: 55px;
-}
-
 .hero {
   background-image: linear-gradient(135deg, #4b81ff 0%, #38dcf7 100%);
   background: linear-gradient(45deg, #c32bff, #c32bff, #1c8bf7, #61e9fa);
@@ -229,6 +229,7 @@ body {
   }
 }
 
+/* HELLO and ANIMATION */
 .HELLO {
   width: 100vw;
   overflow: hidden;
@@ -241,7 +242,6 @@ body {
   margin-top: 4vw;
 }
 
-/* HELLO ANIMATION */
 h5 {
   cursor: default;
   top: 0;
@@ -705,11 +705,6 @@ li {
 
 /* tablet */
 @media screen and (min-width: 768px) {
-  .content {
-    font-size: 60px;
-    padding-top: 80px;
-  }
-
   .logo {
     padding-left: 40px;
     padding-top: 30px;
@@ -736,8 +731,8 @@ li {
   }
 
   .content {
-    font-size: 45px;
-    padding-right: 37px;
+    font-size: 50px;
+    padding-top: 80px;
   }
 
   .content p {
@@ -778,6 +773,10 @@ li {
     right: 5%;
   }
 
+  .content {
+    font-size: 60px;
+  }
+
   .overlay nav {
     top: 55%;
   }
@@ -785,10 +784,6 @@ li {
   .HELLO h5 {
     font-size: 7.5vw;
     padding-top: 0px;
-  }
-
-  .content {
-    font-size: 65px;
   }
 }
 

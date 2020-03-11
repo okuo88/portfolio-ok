@@ -19,6 +19,58 @@
   box-sizing: border-box;
   color: black;
 }
+
+body {
+  font-family: "San Francisco Display", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.content {
+  max-width: 974px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  opacity: 0.8;
+  color: #15ff49;
+}
+
+.button:hover {
+  background-color: #098bff;
+}
+
+.logo {
+  padding-top: 35px;
+  position: absolute;
+}
+
+.logo {
+  width: 100px;
+  height: 90px;
+}
+
+nav {
+  font-size: 1.1em;
+  text-align: right;
+  font-weight: lighter;
+  padding-top: 50px;
+  padding-right: 10px;
+}
+
+li {
+  display: inline;
+  padding: 18px;
+  text-decoration: none;
+  font-size: 0.8em;
+}
+
 /* Burger Nav */
 .button_container {
   position: fixed;
@@ -154,117 +206,12 @@
   }
 }
 
-body {
-  font-family: "San Francisco Display", sans-serif;
-}
-
-.container {
-  margin: 0 auto;
-}
-
-.content {
-  max-width: 974px;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-  opacity: 0.8;
-  color: #15ff49;
-}
-
-.burger-menu {
-  position: absolute;
-  display: none;
-  width: 20px;
-  top: 10.75%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  right: 31px;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 1s, visibility 1s;
-  transition-delay: 0.25s;
-}
-
-.burger-menu.animated-in {
-  opacity: 1;
-  visibility: visible;
-}
-.burger-menu.active span:nth-child(1) {
-  top: 7px;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-  transition: top 0.3s, -webkit-transform 0.3s 0.3s;
-  transition: top 0.3s, transform 0.3s 0.3s;
-  transition: top 0.3s, transform 0.3s 0.3s, -webkit-transform 0.3s 0.3s;
-}
-
-.burger-menu.active span:nth-child(2) {
-  opacity: 0;
-}
-
-.burger-menu.active span:nth-child(3) {
-  top: -7px;
-  -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  transition: top 0.3s, -webkit-transform 0.3s 0.3s;
-  transition: top 0.3s, transform 0.3s 0.3s;
-  transition: top 0.3s, transform 0.3s 0.3s, -webkit-transform 0.3s 0.3s;
-}
-
-.burger-menu span {
-  position: relative;
+.me {
+  padding-top: 90px;
+  width: 100%;
   display: block;
-  height: 3px;
-  top: 0;
-  background: #fff;
-  transition: 0.3s;
-}
-
-.burger-menu span + span {
-  margin-top: 4px;
-}
-
-@media (max-width: 767px) {
-  .burger-menu {
-    display: block;
-  }
-}
-
-.button:hover {
-  background-color: #098bff;
-}
-
-.logo {
-  padding-top: 35px;
-  position: absolute;
-}
-
-.logo {
-  width: 100px;
-  height: 90px;
-}
-
-nav {
-  font-size: 1.1em;
-  text-align: right;
-  font-weight: lighter;
-  padding-top: 50px;
-  padding-right: 10px;
-}
-
-li {
-  display: inline;
-  padding: 18px;
-  text-decoration: none;
-  font-size: 0.8em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .container h1 {
@@ -286,14 +233,6 @@ h2 {
   margin-top: 80px;
 }
 
-.me {
-  padding-top: 90px;
-  width: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 h3 {
   font-size: 26px;
   color: #000000;
@@ -302,6 +241,7 @@ h3 {
   padding-bottom: 40px;
 }
 
+/* footer */
 .footer h1 {
   font-size: 30px;
   color: white;
@@ -389,17 +329,15 @@ p {
     top: 5.8%;
     right: 8%;
   }
+
   .overlay nav {
-    height: 65%;
-    top: 50%;
+    height: 70%;
+    top: 46.5%;
     font-size: 65px;
-    font-weight: 600;
-    display: block;
   }
 
-  p {
-    font-size: 18px;
-    font-weight: 400;
+  .me {
+    width: 100%;
   }
 
   .container h1 {
@@ -407,6 +345,11 @@ p {
     font-weight: 400;
     margin-top: 35px;
     margin-bottom: -40px;
+  }
+
+  p {
+    font-size: 18px;
+    font-weight: 400;
   }
 
   h2 {
@@ -418,14 +361,6 @@ p {
     font-size: 22px;
     margin-top: 50px;
   }
-  .me {
-    width: 100%;
-  }
-  .overlay nav {
-    height: 70%;
-    top: 46.5%;
-    font-size: 65px;
-  }
 }
 @media (max-width: 768px) and (min-width: 401px) {
   .container {
@@ -434,18 +369,14 @@ p {
     margin: 0 auto;
   }
 
-  .footer {
-    width: 100%;
-  }
-  .footer h1 {
-    font-size: 28px;
-  }
-  .me {
-    width: 100%;
-  }
   nav {
     display: none;
   }
+
+  .me {
+    width: 100%;
+  }
+
   h1 {
     font-size: 27px;
     padding: 14px;
@@ -454,6 +385,11 @@ p {
   .footer {
     padding: 20px;
     font-size: 16px;
+    width: 100%;
+  }
+
+  .footer h1 {
+    font-size: 28px;
   }
 
   li {
