@@ -373,12 +373,6 @@ p {
     display: none;
   }
 
-  .overlay nav {
-    height: 70%;
-    top: 48%;
-    font-size: 66px;
-  }
-
   .me {
     width: 100%;
   }
@@ -412,5 +406,10 @@ p {
 @media screen and (min-width: 768px) {
   .button_container {
     display: none;
+  }
+  .overlay nav {
+    height: 80%;
+    top: 48%;
+    font-size: 66px;
   }
 }
