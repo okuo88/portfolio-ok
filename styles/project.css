@@ -58,13 +58,13 @@ a:hover {
   height: 53px;
 }
 
-/* nav {
+nav {
   font-size: 1.1em;
   text-align: right;
   font-weight: lighter;
   padding-top: 5%;
   padding-right: 1.5%;
-} */
+}
 
 li {
   display: inline;
