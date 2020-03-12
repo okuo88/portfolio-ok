@@ -432,7 +432,7 @@ h4 {
   line-height: 1.5;
 }
 
-li {
+.footer li {
   display: inline;
   padding: 18px;
   text-decoration: none;
