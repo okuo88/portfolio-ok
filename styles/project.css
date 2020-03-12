@@ -33,7 +33,7 @@ body {
   max-width: 974px;
 }
 
-nav a {
+a {
   text-decoration: none;
 }
 
@@ -54,17 +54,17 @@ a:hover {
 }
 
 .logo {
-  width: 100px;
-  height: 55px;
+  width: 95px;
+  height: 53px;
 }
 
-nav {
+/* nav {
   font-size: 1.1em;
   text-align: right;
   font-weight: lighter;
   padding-top: 5%;
   padding-right: 1.5%;
-}
+} */
 
 li {
   display: inline;
@@ -422,7 +422,6 @@ h7 {
 
 .column {
   flex: 33.33%;
-  padding-left: 0px;
   padding-top: 20px;
   margin-bottom: -70px;
 }
@@ -581,7 +580,6 @@ p {
     padding-top: 0px;
     padding-bottom: 26px;
     width: 100%;
-    margin-left: -0px;
   }
   .competitive {
     width: 100%;
@@ -600,6 +598,7 @@ p {
   .competitive_03 {
     max-width: 75px;
   }
+
   .row {
     display: block;
     margin-left: -13px;
@@ -607,12 +606,10 @@ p {
   .column {
     flex: 33.33%;
     padding-left: 0px;
-    padding-top: 10px;
     margin-bottom: 20px;
   }
   .flow {
     width: 100%;
-    margin-left: 30px;
     padding-top: 0px;
     padding-bottom: 0px;
   }
@@ -655,7 +652,7 @@ p {
     margin-top: 0px;
   }
   .folding {
-    max-width: 320px;
+    max-width: 100%;
     margin-left: 0px;
     padding-top: 0px;
   }
@@ -804,12 +801,11 @@ p {
   .research {
     padding-top: 0px;
     padding-bottom: 26px;
-    width: 345px;
-    margin-left: -20px;
+    width: 100%;
   }
   .competitive {
-    width: 375px;
-    margin-left: -40px;
+    width: 100%;
+    margin-left: 0px;
     padding-top: 15px;
     padding-bottom: 15px;
   }
@@ -826,42 +822,42 @@ p {
   }
   .row {
     display: block;
-    margin-left: -13px;
   }
   .column {
     flex: 33.33%;
-    padding-left: 0px;
     padding-top: 10px;
     margin-bottom: 20px;
   }
+
+  .content .row .column img {
+    width: 100%;
+  }
+
   .flow {
     width: 100%;
-    margin-left: -30px;
     padding-top: 0px;
     padding-bottom: 0px;
   }
   .sketch {
-    width: 375px;
-    margin-left: -40px;
+    width: 100%;
     padding-top: 0px;
   }
   .logosketch {
     width: 280px;
   }
   .styles {
-    width: 300px;
+    width: 100%;
     margin-left: 0px;
     padding-top: 10px;
     padding-bottom: 15px;
   }
   .wireframes {
-    width: 375px;
-    margin-left: -40px;
+    width: 100%;
     padding-top: 0px;
     padding-bottom: 0px;
   }
   .preference {
-    max-width: 290px;
+    max-width: 100%;
     padding-top: 0px;
     padding-bottom: 25px;
   }
@@ -875,12 +871,11 @@ p {
     padding: 12px 32px;
     font-size: 12px;
     min-width: 160px;
-    margin-left: 35px;
+    margin-left: 14%;
     margin-top: 0px;
   }
   .folding {
-    max-width: 320px;
-    margin-left: -15px;
+    max-width: 100%;
     padding-top: 0px;
   }
 
@@ -942,10 +937,6 @@ p {
     width: 100%;
   }
 
-  .column {
-    margin-left: 10px;
-  }
-
   .persona1 {
     width: 230px;
   }
@@ -986,8 +977,7 @@ p {
   }
 
   .styles {
-    width: 300px;
-    margin-left: 40px;
+    width: 100%;
   }
 
   .footer {

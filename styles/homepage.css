@@ -436,7 +436,7 @@ li {
   display: inline;
   padding: 18px;
   text-decoration: none;
-  font-size: 0.8em;
+  font-size: 16px;
 }
 
 .socials {
@@ -446,7 +446,6 @@ li {
 
 .copyright {
   font-size: 1em;
-  padding-bottom: 20px;
 }
 
 /* iPhone X */
@@ -568,11 +567,6 @@ li {
 
   .footer {
     padding: 20px;
-    font-size: 16px;
-  }
-
-  li {
-    padding: 12px;
     font-size: 0.8em;
   }
 
